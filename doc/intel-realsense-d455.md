@@ -9,6 +9,8 @@ ROS Wrapper: https://dev.intelrealsense.com/docs/ros-wrapper.
 Source:
 https://github.com/IntelRealSense/realsense-ros/blob/ros1-legacy/README.md#installation-instructions.
 
+### Configuration
+
 1. Install the ROS package
    [realsense2_camera](http://wiki.ros.org/realsense2_camera)
    ```sh
@@ -40,3 +42,14 @@ _Rotation_ (only appears when the camera is connected).
 - RAM 8G DDR4
 - Nvidia GeForce GTX 960M 4GB DDR5
 - 3 x USB 3.0, 1 x USB 3.1 Gen 2 (Type C)
+
+### Examples
+
+Source:
+https://dev.intelrealsense.com/docs/ros-wrapper#ros-camera-nodes-examples.
+
+**Note:** each example in the previous link has an explanation (click on the
+column _Link to Example_ in the table!).
+
+**Note:** rviz specific configurations of each launch file is available in the
+current repository ([rviz configs](/hmi/rviz/)).
